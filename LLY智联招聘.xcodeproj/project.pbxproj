@@ -78,6 +78,9 @@
 		0F6C916316D21FC300D869B7 /* LLY智联招聘 */ = {
 			isa = PBXGroup;
 			children = (
+				0F6C918116D22BF800D869B7 /* Controller */,
+				0F6C918016D22BEC00D869B7 /* Model */,
+				0F6C917E16D22BDF00D869B7 /* View */,
 				0F6C916C16D21FC400D869B7 /* AppDelegate.h */,
 				0F6C916D16D21FC400D869B7 /* AppDelegate.m */,
 				0F6C916416D21FC400D869B7 /* Supporting Files */,
@@ -97,6 +100,27 @@
 				0F6C917316D21FC400D869B7 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0F6C917E16D22BDF00D869B7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		0F6C918016D22BEC00D869B7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		0F6C918116D22BF800D869B7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -272,6 +296,7 @@
 				0F6C917916D21FC400D869B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
