@@ -1,0 +1,279 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F6C915E16D21FC300D869B7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F6C915D16D21FC300D869B7 /* UIKit.framework */; };
+		0F6C916016D21FC300D869B7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F6C915F16D21FC300D869B7 /* Foundation.framework */; };
+		0F6C916216D21FC300D869B7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F6C916116D21FC300D869B7 /* CoreGraphics.framework */; };
+		0F6C916816D21FC400D869B7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0F6C916616D21FC400D869B7 /* InfoPlist.strings */; };
+		0F6C916A16D21FC400D869B7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F6C916916D21FC400D869B7 /* main.m */; };
+		0F6C916E16D21FC400D869B7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F6C916D16D21FC400D869B7 /* AppDelegate.m */; };
+		0F6C917016D21FC400D869B7 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F6C916F16D21FC400D869B7 /* Default.png */; };
+		0F6C917216D21FC400D869B7 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F6C917116D21FC400D869B7 /* Default@2x.png */; };
+		0F6C917416D21FC400D869B7 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F6C917316D21FC400D869B7 /* Default-568h@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0F6C915916D21FC300D869B7 /* LLY智联招聘.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LLY智联招聘.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F6C915D16D21FC300D869B7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0F6C915F16D21FC300D869B7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0F6C916116D21FC300D869B7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0F6C916516D21FC400D869B7 /* LLY智联招聘-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LLY智联招聘-Info.plist"; sourceTree = "<group>"; };
+		0F6C916716D21FC400D869B7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0F6C916916D21FC400D869B7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0F6C916B16D21FC400D869B7 /* LLY智联招聘-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LLY智联招聘-Prefix.pch"; sourceTree = "<group>"; };
+		0F6C916C16D21FC400D869B7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0F6C916D16D21FC400D869B7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0F6C916F16D21FC400D869B7 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		0F6C917116D21FC400D869B7 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		0F6C917316D21FC400D869B7 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0F6C915616D21FC300D869B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F6C915E16D21FC300D869B7 /* UIKit.framework in Frameworks */,
+				0F6C916016D21FC300D869B7 /* Foundation.framework in Frameworks */,
+				0F6C916216D21FC300D869B7 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F6C914E16D21FC300D869B7 = {
+			isa = PBXGroup;
+			children = (
+				0F6C916316D21FC300D869B7 /* LLY智联招聘 */,
+				0F6C915C16D21FC300D869B7 /* Frameworks */,
+				0F6C915A16D21FC300D869B7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0F6C915A16D21FC300D869B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0F6C915916D21FC300D869B7 /* LLY智联招聘.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0F6C915C16D21FC300D869B7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0F6C915D16D21FC300D869B7 /* UIKit.framework */,
+				0F6C915F16D21FC300D869B7 /* Foundation.framework */,
+				0F6C916116D21FC300D869B7 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0F6C916316D21FC300D869B7 /* LLY智联招聘 */ = {
+			isa = PBXGroup;
+			children = (
+				0F6C916C16D21FC400D869B7 /* AppDelegate.h */,
+				0F6C916D16D21FC400D869B7 /* AppDelegate.m */,
+				0F6C916416D21FC400D869B7 /* Supporting Files */,
+			);
+			path = "LLY智联招聘";
+			sourceTree = "<group>";
+		};
+		0F6C916416D21FC400D869B7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0F6C916516D21FC400D869B7 /* LLY智联招聘-Info.plist */,
+				0F6C916616D21FC400D869B7 /* InfoPlist.strings */,
+				0F6C916916D21FC400D869B7 /* main.m */,
+				0F6C916B16D21FC400D869B7 /* LLY智联招聘-Prefix.pch */,
+				0F6C916F16D21FC400D869B7 /* Default.png */,
+				0F6C917116D21FC400D869B7 /* Default@2x.png */,
+				0F6C917316D21FC400D869B7 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0F6C915816D21FC300D869B7 /* LLY智联招聘 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F6C917716D21FC400D869B7 /* Build configuration list for PBXNativeTarget "LLY智联招聘" */;
+			buildPhases = (
+				0F6C915516D21FC300D869B7 /* Sources */,
+				0F6C915616D21FC300D869B7 /* Frameworks */,
+				0F6C915716D21FC300D869B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LLY智联招聘";
+			productName = "LLY智联招聘";
+			productReference = 0F6C915916D21FC300D869B7 /* LLY智联招聘.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0F6C915016D21FC300D869B7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = Ibokan;
+			};
+			buildConfigurationList = 0F6C915316D21FC300D869B7 /* Build configuration list for PBXProject "LLY智联招聘" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0F6C914E16D21FC300D869B7;
+			productRefGroup = 0F6C915A16D21FC300D869B7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0F6C915816D21FC300D869B7 /* LLY智联招聘 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0F6C915716D21FC300D869B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F6C916816D21FC400D869B7 /* InfoPlist.strings in Resources */,
+				0F6C917016D21FC400D869B7 /* Default.png in Resources */,
+				0F6C917216D21FC400D869B7 /* Default@2x.png in Resources */,
+				0F6C917416D21FC400D869B7 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0F6C915516D21FC300D869B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F6C916A16D21FC400D869B7 /* main.m in Sources */,
+				0F6C916E16D21FC400D869B7 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0F6C916616D21FC400D869B7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0F6C916716D21FC400D869B7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0F6C917516D21FC400D869B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0F6C917616D21FC400D869B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0F6C917816D21FC400D869B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LLY智联招聘/LLY智联招聘-Prefix.pch";
+				INFOPLIST_FILE = "LLY智联招聘/LLY智联招聘-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0F6C917916D21FC400D869B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LLY智联招聘/LLY智联招聘-Prefix.pch";
+				INFOPLIST_FILE = "LLY智联招聘/LLY智联招聘-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0F6C915316D21FC300D869B7 /* Build configuration list for PBXProject "LLY智联招聘" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F6C917516D21FC400D869B7 /* Debug */,
+				0F6C917616D21FC400D869B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F6C917716D21FC400D869B7 /* Build configuration list for PBXNativeTarget "LLY智联招聘" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F6C917816D21FC400D869B7 /* Debug */,
+				0F6C917916D21FC400D869B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0F6C915016D21FC300D869B7 /* Project object */;
+}
