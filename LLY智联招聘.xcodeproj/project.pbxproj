@@ -526,20 +526,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0F3D69D216D366A000D0C492 /* TabBarViewController */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = TabBarViewController;
-			sourceTree = "<group>";
-		};
-		0F3D69D316D366BE00D0C492 /* NavigationViewController */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = NavigationViewController;
-			sourceTree = "<group>";
-		};
 		0F3D69D416D3674800D0C492 /* image */ = {
 			isa = PBXGroup;
 			children = (
@@ -774,6 +760,13 @@
 			path = image;
 			sourceTree = "<group>";
 		};
+		0F3D6B9B16D368B300D0C492 /* TabBarController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = TabBarController;
+			sourceTree = "<group>";
+		};
 		0F6C914E16D21FC300D869B7 = {
 			isa = PBXGroup;
 			children = (
@@ -804,9 +797,8 @@
 		0F6C916316D21FC300D869B7 /* LLY智联招聘 */ = {
 			isa = PBXGroup;
 			children = (
+				0F3D6B9B16D368B300D0C492 /* TabBarController */,
 				0F3D69D416D3674800D0C492 /* image */,
-				0F3D69D316D366BE00D0C492 /* NavigationViewController */,
-				0F3D69D216D366A000D0C492 /* TabBarViewController */,
 				0F6C918116D22BF800D869B7 /* Controller */,
 				0F6C918016D22BEC00D869B7 /* Model */,
 				0F6C917E16D22BDF00D869B7 /* View */,
